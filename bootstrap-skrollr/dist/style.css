@@ -1,0 +1,186 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold;
+}
+
+body {
+  height: 1000px;
+}
+
+header.jumbotron {
+  background-image: url("https://news.agentm.tw/wp-content/uploads/AKIRA_1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+header.jumbotron .container {
+  color: black;
+  padding: 200px 0px;
+  letter-spacing: 4px;
+}
+header.jumbotron .container h1, header.jumbotron .container h4 {
+  background-color: #0fff0f;
+  display: inline-block;
+  padding: 6px 20px;
+}
+header.jumbotron .container hr {
+  opacity: 0%;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_ask {
+  background-color: #0fff0f;
+}
+section#section_ask .col-sm-5.img {
+  background-image: url(https://images.squarespace-cdn.com/content/v1/54fc8146e4b02a22841f4df7/1526038546735-AOT8JLU4RCQQ071QUTI6/ke17ZwdGBToddI8pDm48kOQqJDFJbbyw0BI_4INJ6lIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8PaoYXhp6HxIwZIk7-Mi3Tsic-L2IOPH3Dwrhl-Ne3Z2i0ShSZ7P6nnuUNGJKdBEzr5SbXiCW3R-hglxP4d9IUI6liCGkj4dr9PBmyqqYlee/506163.jpg?format=1000ww);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 350px;
+  mix-blend-mode: multiply;
+}
+section#section_ask .col-sm-7 h2 {
+  margin-top: 130px;
+  padding: 0px 20px;
+}
+
+section#section_about {
+  background-color: #0fff0f;
+}
+section#section_about .img-wrap {
+  height: 220px;
+  overflow: hidden;
+}
+section#section_about img {
+  width: 200%;
+  transform: translateX(-16%);
+}
+section#section_about h4 {
+  background-color: #0fff0f;
+  padding: 20px;
+}
+section#section_about p {
+  background-color: #0fff0f;
+  margin-top: -10px;
+  padding: 20px;
+  padding-top: 0px;
+}
+section#section_about h1 {
+  background-color: #0fff0f;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+section#section_story {
+  background-color: #0fff0f;
+  padding: 0;
+}
+section#section_story .col-sm-5 {
+  background-image: url(https://images.squarespace-cdn.com/content/v1/54fc8146e4b02a22841f4df7/1526038826343-WZM9E7XJ5BVTF9W1KZMX/ke17ZwdGBToddI8pDm48kHoNgBzaXjeVVLt6mcIEPO9Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIxJWm2B0ZYulvKEjCuwzbvKGvmPupNe7CzLrFWDnJ-6IKMshLAGzx4R3EDFOm1kBS/tumblr_mn19qih2IA1rrvin5o5_1280.jpg);
+  background-size: 140% contain;
+  background-repeat: no-repeat;
+}
+section#section_story .col-sm-5 .cross {
+  font-size: 60px;
+  color: red;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: bold;
+}
+section#section_story .col-sm-12.features {
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+section#section_story .col-sm-12.features i {
+  font-size: 30px;
+  margin: 20px 0px;
+}
+section#section_story .col-sm-12 h3 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+section#section_future {
+  background-color: #0fff0f;
+}
+section#section_future .col-sm-6 img {
+  width: 100%;
+}
+section#section_future .col-sm-6.features {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+section#section_future .col-sm-6.features i {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+section#section_future h1 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+footer.jumbotron {
+  background-image: url("https://news.agentm.tw/wp-content/uploads/AKIRA_1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+  text-align: center;
+}
+footer.jumbotron .container {
+  color: black;
+  padding: 200px 0px;
+  letter-spacing: 4px;
+}
+footer.jumbotron .container hr {
+  opacity: 0;
+}
+footer.jumbotron .container h2 {
+  background-color: #0fff0f;
+  display: inline-block;
+  padding: 6px 20px;
+}
+footer.jumbotron .container button {
+  color: black;
+  background-color: #0fff0f;
+}
+footer.jumbotron .container input {
+  background-color: #0fff0f;
+  max-width: 700px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+footer.jumbotron .container input text {
+  text-align: center;
+}
+
+nav.navbar.fixed-top.navbar-expand-md.navbar-top a {
+  color: #0fff0f;
+  transition: 0.5s;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: transparent;
+}
+nav.navbar.fixed-top.navbar-expand-md.navbar-top a:hover {
+  color: red;
+}
+
+.black {
+  background-color: black;
+}
+
+nav.navbar {
+  transition: 0.5s;
+}

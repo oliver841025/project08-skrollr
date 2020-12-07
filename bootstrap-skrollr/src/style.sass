@@ -1,0 +1,176 @@
+$color_green: #0fff0f
+
+
+*
+  font-family: 微軟正黑體
+  
+  // debug
+  // border: solid 1px #aaa
+  // header
+  //   display: none
+  // section
+  //   display: none
+  // #section_future
+  //   display: none
+  // footer
+  //   display: block
+    
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
+  font-weight: bold
+  
+  
+body
+  height: 1000px
+
+header.jumbotron
+  background-image: url("https://news.agentm.tw/wp-content/uploads/AKIRA_1.jpg")
+  background-size: cover
+  background-attachment: fixed
+  margin-bottom: 0px
+  .container
+    color: black
+    padding: 200px 0px
+    // text-align: center
+    letter-spacing: 4px
+    h1,h4
+      background-color: $color_green
+      display: inline-block
+      padding: 6px 20px
+      // border-radius: 50px
+    h4
+      // font-weight: normal
+      // color: rgba(white,0.6)
+    hr
+      opacity: 0%
+section
+  padding: 50px 0px
+section#section_ask
+  background-color: $color_green
+  .col-sm-5.img
+    background-image: url(https://images.squarespace-cdn.com/content/v1/54fc8146e4b02a22841f4df7/1526038546735-AOT8JLU4RCQQ071QUTI6/ke17ZwdGBToddI8pDm48kOQqJDFJbbyw0BI_4INJ6lIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8PaoYXhp6HxIwZIk7-Mi3Tsic-L2IOPH3Dwrhl-Ne3Z2i0ShSZ7P6nnuUNGJKdBEzr5SbXiCW3R-hglxP4d9IUI6liCGkj4dr9PBmyqqYlee/506163.jpg?format=1000ww)
+    background-size: contain
+    background-repeat: no-repeat
+    // background-position: center 
+    height: 350px
+    mix-blend-mode: multiply
+  .col-sm-7
+    h2
+      margin-top: 130px
+      padding: 0px 20px
+      
+section#section_about
+  background-color: $color_green
+  .img-wrap
+    height: 220px
+    overflow: hidden
+  img
+    width: 200%
+    transform: translateX(-16%)
+  h4
+    // margin-top: 20px
+    background-color: $color_green
+    padding: 20px
+  p
+    background-color: $color_green
+    margin-top: -10px
+    padding: 20px
+    padding-top: 0px
+    
+  h1
+    background-color: $color_green
+    text-align: center
+    padding: 10px 0px
+    
+section#section_story
+  background-color: $color_green
+  padding: 0
+  .col-sm-5
+    background-image: url(https://images.squarespace-cdn.com/content/v1/54fc8146e4b02a22841f4df7/1526038826343-WZM9E7XJ5BVTF9W1KZMX/ke17ZwdGBToddI8pDm48kHoNgBzaXjeVVLt6mcIEPO9Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIxJWm2B0ZYulvKEjCuwzbvKGvmPupNe7CzLrFWDnJ-6IKMshLAGzx4R3EDFOm1kBS/tumblr_mn19qih2IA1rrvin5o5_1280.jpg)
+    // mix-blend-mode: multiply
+    background-size: 140% contain
+    background-repeat: no-repeat
+    .cross
+      font-size: 60px
+      color: red
+      position: absolute
+      left: 50%
+      top: 50%
+      transform: translateY(-50%)
+      font-weight: bold
+    
+  .col-sm-12.features
+    text-align: center
+    margin-bottom: 10px
+    padding: 20px
+    i
+      font-size: 30px
+      margin: 20px 0px
+  .col-sm-12
+    h3
+      margin-top: 30px
+      text-align: center
+    
+section#section_future
+  background-color: $color_green
+  .col-sm-6
+    img
+      width: 100%
+  .col-sm-6.features
+    padding-top: 20px
+    padding-bottom: 20px
+    i
+      font-size: 30px
+      padding-bottom: 10px
+  h1
+    text-align: center
+    padding-bottom: 10px
+      
+footer.jumbotron
+  background-image: url("https://news.agentm.tw/wp-content/uploads/AKIRA_1.jpg")
+  background-size: cover
+  background-attachment: fixed
+  margin-bottom: 0px
+  text-align: center
+  .container
+    color: black
+    padding: 200px 0px
+    // text-align: center
+    letter-spacing: 4px
+    hr
+      opacity: 0
+    h2
+      background-color: $color_green
+      display: inline-block
+      padding: 6px 20px
+      // border-radius: 50px
+    button
+      color: black
+      background-color: $color_green
+    input
+      background-color: $color_green
+      max-width: 700px
+      text-align: center
+      margin-left: auto
+      margin-right: auto
+      margin-top: 20px
+      
+      text
+        text-align: center
+    
+nav.navbar.fixed-top.navbar-expand-md.navbar-top
+  a
+    color: $color_green
+    transition: 0.5s
+    letter-spacing: 1px
+    font-size: 20px
+    font-weight: bold
+    cursor: pointer
+    background-color: transparent
+    &:hover
+      color: red
+    
+.black
+  background-color: black
+  
+nav.navbar
+  transition: 0.5s
